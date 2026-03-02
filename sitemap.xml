@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://tandpay.com/</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tandpay.com/" />
+    <xhtml:link rel="alternate" hreflang="rw" href="https://tandpay.com/?lang=rw" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tandpay.com/" />
+    <image:image>
+      <image:loc>https://tandpay.com/images/hero-banner.jpg</image:loc>
+      <image:title>TandPay — Escrow for safe social commerce in Rwanda with MTN Mobile Money</image:title>
+      <image:caption>TandPay escrow platform homepage banner — safe buying and selling on WhatsApp, Instagram, TikTok, and Facebook in Rwanda</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://tandpay.com/images/hero-phone-mockup.jpg</image:loc>
+      <image:title>TandPay mobile checkout screen — pay via MTN MoMo escrow</image:title>
+      <image:caption>TandPay buyer checkout interface showing product payment via MTN Mobile Money in Rwanda</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://tandpay.com/images/hero-escrow-illustration.jpg</image:loc>
+      <image:title>TandPay escrow protects both buyer and seller in Rwanda</image:title>
+      <image:caption>Illustration showing how TandPay escrow holds payment until delivery is confirmed</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://tandpay.com/images/security-shield.jpg</image:loc>
+      <image:title>TandPay payment protection shield — secure MTN MoMo escrow</image:title>
+      <image:caption>Security shield representing TandPay buyer payment protection via escrow</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://tandpay.com/images/how-it-works-delivery-rider.jpg</image:loc>
+      <image:title>TandPay delivery rider with 4-digit confirmation code</image:title>
+      <image:caption>Delivery rider carrying TandPay unique delivery code for proof of delivery in Rwanda</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://tandpay.com/images/how-it-works-delivery-confirmation.jpg</image:loc>
+      <image:title>Buyer confirms delivery on TandPay — seller gets paid via MoMo</image:title>
+      <image:caption>Buyer entering delivery confirmation code on TandPay to release seller payment</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://tandpay.com/images/green_logo.png</image:loc>
+      <image:title>TandPay logo — Rwanda escrow platform</image:title>
+      <image:caption>Official TandPay (TrustAndPay) logo mark</image:caption>
+    </image:image>
+  </url>
+</urlset>

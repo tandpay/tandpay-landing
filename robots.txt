@@ -1,0 +1,72 @@
+# TandPay — robots.txt
+# Allow all search engines and AI crawlers
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# OpenAI / ChatGPT
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic / Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Meta / Facebook
+User-agent: Facebookbot
+Allow: /
+
+User-agent: FacebookExternalHit
+Allow: /
+
+# Twitter
+User-agent: Twitterbot
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+
+# Yandex
+User-agent: YandexBot
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Google AI / Gemini
+User-agent: Google-Extended
+Allow: /
+
+# Microsoft Copilot / Bing AI
+User-agent: Bytespider
+Allow: /
+
+# All other bots
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://tandpay.com/sitemap.xml
+
+# LLM-specific content
+# See /llms.txt for AI-optimized site summary

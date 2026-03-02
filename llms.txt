@@ -1,0 +1,97 @@
+# TandPay
+
+> TandPay (TrustAndPay) is Rwanda's escrow platform for social commerce. It holds buyer payments via MTN Mobile Money (MoMo) until delivery is physically confirmed with a unique 4-digit code. TandPay protects both buyers and sellers in WhatsApp, Instagram, TikTok, and Facebook transactions. 3% fee per completed transaction. No app download needed. Available across Rwanda.
+
+## Company
+
+- **Name**: tandpay LTD
+- **Founded**: February 2, 2026
+- **TIN**: 155683751
+- **Location**: Nyarugenge, Kigali, Rwanda
+- **Founder**: Irene BAHATI, Managing Director
+- **Website**: https://tandpay.com
+- **Contact**: bahati@tandpay.com | +250 781 836 513
+- **WhatsApp**: https://wa.me/250781836513
+
+## What TandPay Does
+
+TandPay solves the trust problem in peer-to-peer online commerce in Rwanda. When buyers and sellers transact on social media (WhatsApp, Instagram, TikTok, Facebook), there is no payment protection — buyers risk getting scammed, and sellers risk non-payment. TandPay acts as a neutral escrow intermediary.
+
+### How It Works (3 Steps)
+
+1. **Buyer pays into TandPay**: Seller shares a payment link. Buyer clicks it, sees the product, and pays via MTN MoMo. Money is held in escrow — NOT sent to the seller.
+2. **Seller delivers with a code**: TandPay generates a unique 4-digit delivery code. Seller writes it on the package or tells the rider. Only the seller sees this code.
+3. **Buyer confirms, seller gets paid**: Rider delivers and gives the code to the buyer. Buyer enters it on TandPay. Seller is paid instantly via MoMo minus 3% fee.
+
+### Key Features
+
+- **Escrow payment holding** via MTN Mobile Money
+- **4-digit delivery confirmation codes** proving physical handover
+- **12-hour issue reporting window** — buyers can report wrong, used, or suspicious items within 12 hours of delivery
+- **Fast seller payouts** — sellers get paid right away in most transactions; payment held only if buyer reports an issue
+- **Full refund** if seller never delivers (7-day expiry)
+- **Dispute resolution** with admin mediation
+- **Public seller profiles** with sales count, dispute rate, customer reviews, star ratings, and verification badges — buyers check before they buy, sellers build lifetime reputation
+- **Seller payment links** shareable on any platform
+- **SMS notifications** via Pindo (OTP, payment, delivery confirmations)
+- **WhatsApp Business API** support agent
+- **Bilingual** interface (English + Kinyarwanda)
+- **No app download** required — works in browser
+
+### Pricing
+
+3% fee per completed transaction. Free to sign up. Free to create payment links. No monthly fees. No hidden charges.
+
+Example: Buyer pays 15,000 RWF → Seller receives 14,550 RWF → TandPay keeps 450 RWF.
+
+### Technology Partners
+
+- **MTN Rwanda**: Mobile Money Collections API (buyer payments) and Disbursements API (seller payouts)
+- **Pindo**: SMS delivery for OTP verification, payment confirmations, delivery notifications
+- **Meta**: WhatsApp Business API for customer support agent; sellers share links on WhatsApp, Instagram, TikTok, Facebook
+
+### Who Is TandPay For?
+
+TandPay is platform-agnostic — it works wherever social commerce happens:
+
+- **WhatsApp Sellers**: Share payment links in chats. Customers pay safely, sellers get guaranteed payment.
+- **Instagram Boutiques**: Drop TandPay links in bio or DMs. Build buyer trust and convert followers into customers.
+- **TikTok Sellers**: Convert viral viewers into safe buyers. Share TandPay links and sell with confidence.
+- **Facebook Marketplace Sellers**: Close deals safely without meeting strangers with cash.
+- **Cautious Buyers**: Anyone who saw the perfect item online but didn't buy because they didn't trust the seller. TandPay holds payment until physical delivery is confirmed.
+- **Delivery Riders**: The 4-digit code system also protects riders by proving handover happened.
+- Available nationwide across all districts of Rwanda where MTN MoMo operates
+
+### Revenue Model
+
+3% commission on every completed escrow transaction.
+
+## Social Media
+
+- X/Twitter: https://x.com/tandpay_rw
+- Instagram: https://instagram.com/tandpay
+- TikTok: https://tiktok.com/@tandpay
+- WhatsApp: https://wa.me/250781836513
+
+## Frequently Asked Questions
+
+**What is TandPay?**
+TandPay stands for TrustAndPay. It is an escrow platform that holds buyer payments via Mobile Money until the seller delivers and the buyer confirms receipt using a unique 4-digit delivery code.
+
+**How does the delivery code work?**
+When a buyer pays, TandPay generates a unique 4-digit code only the seller sees. The seller gives it to the rider. The rider gives it to the buyer on delivery. The buyer enters it on TandPay to confirm receipt and release payment.
+
+**Is TandPay safe?**
+Yes. Funds are held in a regulated MTN MoMo merchant account. Sellers get paid instantly once the buyer confirms delivery. Buyers have 12 hours to report wrong, used, or suspicious items — in most cases, sellers receive payment right away. TandPay is a registered Rwandan company (TIN: 155683751).
+
+**How much does it cost?**
+3% per completed transaction. Free signup, free payment links, no monthly fees.
+
+**Do I need an app?**
+No. TandPay works entirely through web links in any browser.
+
+**What payment methods are supported?**
+MTN Mobile Money (MoMo). Airtel Money and bank transfers planned.
+
+**Does it work outside Kigali?**
+Yes, everywhere in Rwanda where MTN MoMo is available.
