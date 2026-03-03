@@ -247,14 +247,15 @@ h2 {
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 24px;
 }
 
 .nav-links a:not(.btn) {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     font-weight: 500;
     color: var(--gray-700);
     transition: color 0.2s;
+    white-space: nowrap;
 }
 
 .nav-links a:not(.btn):hover {
@@ -1905,12 +1906,8 @@ h2 {
     }
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-    .container {
-        padding: 0 16px;
-    }
-
+/* Tablet — collapse nav to hamburger */
+@media (max-width: 1024px) {
     .nav-links {
         display: none;
     }
@@ -1925,6 +1922,13 @@ h2 {
 
     .mobile-menu {
         top: 56px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 16px;
     }
 
     .hero {

@@ -73,6 +73,24 @@ TandPay is platform-agnostic — it works wherever social commerce happens:
 - TikTok: https://tiktok.com/@tandpay
 - WhatsApp: https://wa.me/250781836513
 
+## Blog
+
+TandPay publishes educational articles about escrow, safe online shopping, and social commerce in Rwanda. Available in English and Kinyarwanda.
+
+### English Articles
+- [What is Escrow?](https://tandpay.com/blog/what-is-escrow.html) — Explains escrow and how TandPay uses it for safe social commerce
+- [Buy Safely on WhatsApp in Rwanda](https://tandpay.com/blog/buy-safely-whatsapp-rwanda.html) — Guide for buyers on WhatsApp commerce safety
+- [Mobile Money Escrow Explained](https://tandpay.com/blog/mobile-money-escrow-explained.html) — How MTN MoMo escrow works with TandPay
+- [Online Shopping Scams in Rwanda](https://tandpay.com/blog/online-shopping-scams-rwanda.html) — Common scams and how to avoid them
+- [Why Sellers Are Switching to Escrow](https://tandpay.com/blog/sellers-switching-to-escrow.html) — Benefits of escrow for social media sellers
+
+### Kinyarwanda Articles
+- [Escrow ni iki?](https://tandpay.com/blog/escrow-ni-iki.html) — Ibisobanuro ku escrow na TandPay
+- [Gura neza kuri WhatsApp](https://tandpay.com/blog/gura-neza-whatsapp.html) — Amabwiriza yo kugura mu mutekano
+- [Uburiganya kuri Internet](https://tandpay.com/blog/uburiganya-kuri-internet.html) — Uburiganya busanzwe n'uko bwirindwa
+- [TandPay irinda abakiriya](https://tandpay.com/blog/tandpay-irinda-abakiriya.html) — Uko TandPay irinda abuguzi n'abacuruzi
+- [Abacuruzi bahisemo TandPay](https://tandpay.com/blog/abacuruzi-bahisemo-tandpay.html) — Impamvu abacuruzi bahitamo escrow
+
 ## Frequently Asked Questions
 
 **What is TandPay?**

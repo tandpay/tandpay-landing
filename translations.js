@@ -11,6 +11,7 @@ const translations = {
         "nav.profiles": "Seller Profiles",
         "nav.pricing": "Pricing",
         "nav.faq": "FAQ",
+        "nav.blog": "Blog",
         "nav.cta": "Start a Safe Deal",
 
         // Hero
@@ -220,6 +221,7 @@ const translations = {
         "nav.profiles": "Umwirondoro w'Abacuruzi",
         "nav.pricing": "Ibiciro",
         "nav.faq": "Ibibazo",
+        "nav.blog": "Inyandiko",
         "nav.cta": "Tangira Ubucuruzi Bwizewe",
 
         // Hero
