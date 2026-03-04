@@ -2310,25 +2310,8 @@ h2 {
    KINYARWANDA LANGUAGE OVERRIDES
    Reduce font sizes & spacing for longer text
    ============================================ */
-html[lang="rw"] .nav-links {
-    gap: 14px;
-}
-
-html[lang="rw"] .nav-links a:not(.btn) {
-    font-size: 0.82rem;
-}
-
-html[lang="rw"] .nav-dropdown-toggle {
-    font-size: 0.82rem;
-}
-
-html[lang="rw"] .nav-dropdown-menu a {
-    font-size: 0.82rem;
-}
-
 html[lang="rw"] .btn-nav {
-    font-size: 0.82rem;
-    padding: 8px 14px;
+    padding: 10px 20px;
 }
 
 html[lang="rw"] .hero h1 {
