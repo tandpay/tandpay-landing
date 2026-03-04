@@ -194,12 +194,14 @@ a { text-decoration: none; color: inherit; }
 
 /* ARTICLE HERO IMAGE */
 .article-hero-img {
-    max-width: 720px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 0 24px;
 }
 .article-hero-img img {
     width: 100%;
+    aspect-ratio: 1200 / 670;
+    object-fit: cover;
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-lg);
     margin-top: -20px;
