@@ -121,7 +121,8 @@ h2 {
     border-radius: 100px;
     padding: 14px 28px;
     transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-    white-space: nowrap;
+    white-space: normal;
+    text-align: center;
     position: relative;
     overflow: hidden;
 }
@@ -255,7 +256,6 @@ h2 {
     font-weight: 500;
     color: var(--gray-700);
     transition: color 0.2s;
-    white-space: nowrap;
 }
 
 .nav-links a:not(.btn):hover {
@@ -758,7 +758,6 @@ h2 {
     font-size: 0.9rem;
     font-weight: 600;
     color: var(--gray-500);
-    white-space: nowrap;
 }
 
 .audience-platform-logos {
@@ -833,7 +832,7 @@ h2 {
 
 .step-card {
     flex: 1;
-    max-width: 320px;
+    max-width: 360px;
     text-align: center;
     padding: 32px 24px;
 }
@@ -1626,7 +1625,7 @@ h2 {
 }
 
 .faq-item.active .faq-answer {
-    max-height: 300px;
+    max-height: 600px;
     padding-bottom: 24px;
 }
 
@@ -2115,7 +2114,7 @@ h2 {
 
     .final-cta-buttons .btn {
         width: 100%;
-        max-width: 300px;
+        max-width: 400px;
     }
 
     /* SEO about mobile */
