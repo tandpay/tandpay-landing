@@ -192,6 +192,19 @@ a { text-decoration: none; color: inherit; }
 }
 .article-header .meta a { color: var(--primary); font-weight: 600; }
 
+/* ARTICLE HERO IMAGE */
+.article-hero-img {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+.article-hero-img img {
+    width: 100%;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-lg);
+    margin-top: -20px;
+}
+
 /* ARTICLE BODY */
 .article-body {
     max-width: 720px;
