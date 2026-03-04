@@ -6,6 +6,7 @@
 const translations = {
     en: {
         // Nav
+        "nav.learn": "Learn",
         "nav.who": "Who It's For",
         "nav.how": "How It Works",
         "nav.profiles": "Seller Profiles",
@@ -216,13 +217,14 @@ const translations = {
 
     rw: {
         // Nav
-        "nav.who": "Ninde bigenewe",
-        "nav.how": "Uko Bikorwa",
-        "nav.profiles": "Profile z'abacuruzi",
+        "nav.learn": "Menya",
+        "nav.who": "Bigenewe nde",
+        "nav.how": "Uko bikorwa",
+        "nav.profiles": "Abacuruzi",
         "nav.pricing": "Ibiciro",
-        "nav.faq": "Ibibazo bibazwa cyane",
+        "nav.faq": "Ibibazo",
         "nav.blog": "Imyandiko",
-        "nav.cta": "Tangira Ubucuruzi Bwizewe",
+        "nav.cta": "Tangira hano",
 
         // Hero
         "hero.badge": "Yizerwa n'abacuruzi benshi mu Rwanda",

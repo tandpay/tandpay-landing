@@ -2235,6 +2235,78 @@ h2 {
 }
 
 /* ============================================
+   NAV DROPDOWN
+   ============================================ */
+.nav-dropdown {
+    position: relative;
+}
+
+.nav-dropdown-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--gray-700);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 4px 0;
+    transition: color 0.2s;
+}
+
+.nav-dropdown-toggle:hover {
+    color: var(--primary);
+}
+
+.nav-dropdown-toggle svg {
+    transition: transform 0.2s;
+}
+
+.nav-dropdown.open .nav-dropdown-toggle svg {
+    transform: rotate(180deg);
+}
+
+.nav-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 12px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--white);
+    border: 1px solid var(--gray-100);
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-lg);
+    min-width: 180px;
+    padding: 8px 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-50%) translateY(-8px);
+    transition: all 0.2s ease;
+    z-index: 1001;
+}
+
+.nav-dropdown.open .nav-dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+
+.nav-dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: var(--gray-700);
+    transition: all 0.15s;
+}
+
+.nav-dropdown-menu a:hover {
+    background: var(--primary-light);
+    color: var(--primary);
+}
+
+/* ============================================
    KINYARWANDA LANGUAGE OVERRIDES
    Reduce font sizes & spacing for longer text
    ============================================ */
@@ -2243,6 +2315,14 @@ html[lang="rw"] .nav-links {
 }
 
 html[lang="rw"] .nav-links a:not(.btn) {
+    font-size: 0.82rem;
+}
+
+html[lang="rw"] .nav-dropdown-toggle {
+    font-size: 0.82rem;
+}
+
+html[lang="rw"] .nav-dropdown-menu a {
     font-size: 0.82rem;
 }
 

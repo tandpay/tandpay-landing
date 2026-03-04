@@ -21,6 +21,30 @@ if (mobileMenuBtn) {
     });
 }
 
+// Nav Dropdown
+const navDropdown = document.querySelector('.nav-dropdown');
+if (navDropdown) {
+    const toggle = navDropdown.querySelector('.nav-dropdown-toggle');
+    toggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        navDropdown.classList.toggle('open');
+    });
+
+    // Close dropdown when clicking a link inside it
+    navDropdown.querySelectorAll('.nav-dropdown-menu a').forEach(link => {
+        link.addEventListener('click', () => {
+            navDropdown.classList.remove('open');
+        });
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!navDropdown.contains(e.target)) {
+            navDropdown.classList.remove('open');
+        }
+    });
+}
+
 // FAQ Accordion
 const faqItems = document.querySelectorAll('.faq-item');
 
