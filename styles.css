@@ -2235,6 +2235,131 @@ h2 {
 }
 
 /* ============================================
+   KINYARWANDA LANGUAGE OVERRIDES
+   Reduce font sizes & spacing for longer text
+   ============================================ */
+html[lang="rw"] .nav-links {
+    gap: 14px;
+}
+
+html[lang="rw"] .nav-links a:not(.btn) {
+    font-size: 0.82rem;
+}
+
+html[lang="rw"] .btn-nav {
+    font-size: 0.82rem;
+    padding: 8px 14px;
+}
+
+html[lang="rw"] .hero h1 {
+    font-size: clamp(1.9rem, 4.5vw, 3rem);
+}
+
+html[lang="rw"] .hero-subtitle {
+    font-size: 1.05rem;
+}
+
+html[lang="rw"] .section-label {
+    font-size: 0.78rem;
+}
+
+html[lang="rw"] h2 {
+    font-size: clamp(1.5rem, 3.2vw, 2.2rem);
+}
+
+html[lang="rw"] .problem-card h3 {
+    font-size: 1.1rem;
+}
+
+html[lang="rw"] .problem-card p {
+    font-size: 0.88rem;
+}
+
+html[lang="rw"] .audience-card h3 {
+    font-size: 0.95rem;
+}
+
+html[lang="rw"] .audience-card p {
+    font-size: 0.82rem;
+}
+
+html[lang="rw"] .audience-subtitle {
+    font-size: 0.95rem;
+}
+
+html[lang="rw"] .step-card h3 {
+    font-size: 1.05rem;
+}
+
+html[lang="rw"] .step-card p {
+    font-size: 0.88rem;
+}
+
+html[lang="rw"] .benefit-list li strong {
+    font-size: 0.95rem;
+}
+
+html[lang="rw"] .benefit-list li p {
+    font-size: 0.82rem;
+}
+
+html[lang="rw"] .reputation-desc {
+    font-size: 0.95rem;
+}
+
+html[lang="rw"] .reputation-stat strong {
+    font-size: 0.88rem;
+}
+
+html[lang="rw"] .reputation-stat p {
+    font-size: 0.82rem;
+}
+
+html[lang="rw"] .trust-item {
+    font-size: 0.82rem;
+}
+
+html[lang="rw"] .faq-question {
+    font-size: 0.95rem;
+}
+
+html[lang="rw"] .faq-answer p {
+    font-size: 0.88rem;
+}
+
+html[lang="rw"] .pricing-desc {
+    font-size: 1rem;
+}
+
+html[lang="rw"] .pricing-features li {
+    font-size: 0.9rem;
+}
+
+html[lang="rw"] .final-cta-section p {
+    font-size: 1.05rem;
+}
+
+html[lang="rw"] .btn {
+    font-size: 0.9rem;
+    padding: 12px 24px;
+}
+
+html[lang="rw"] .btn-lg {
+    font-size: 0.95rem;
+    padding: 14px 28px;
+}
+
+@media (max-width: 768px) {
+    html[lang="rw"] .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    html[lang="rw"] h2 {
+        font-size: 1.25rem;
+    }
+}
+
+/* ============================================
    ANIMATIONS & EFFECTS (APPLE-GRADE)
    ============================================ */
 .reveal-up {
