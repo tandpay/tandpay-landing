@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TandPay — Launching Soon</title>
+    <meta name="description" content="TandPay is launching soon. Escrow for social commerce in Rwanda with MTN Mobile Money.">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <style>
+        :root {
+            --primary: #0D7377;
+            --primary-dark: #095456;
+            --secondary: #F5A623;
+            --dark: #1A1A2E;
+            --white: #ffffff;
+            --off-white: #FAFAFA;
+        }
+
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--off-white);
+            color: var(--dark);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 560px;
+        }
+
+        .logo {
+            width: 180px;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        p {
+            font-size: 1.15rem;
+            color: #4a4a5a;
+            line-height: 1.7;
+            margin-bottom: 2rem;
+        }
+
+        .badge {
+            display: inline-block;
+            background: var(--secondary);
+            color: var(--dark);
+            font-weight: 700;
+            font-size: 0.85rem;
+            padding: 0.4rem 1.2rem;
+            border-radius: 50px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            border: 2px solid var(--primary);
+            padding: 0.75rem 2rem;
+            border-radius: 12px;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .back-link:hover {
+            background: var(--primary);
+            color: var(--white);
+        }
+
+        @media (max-width: 480px) {
+            h1 { font-size: 1.8rem; }
+            p { font-size: 1rem; }
+            .logo { width: 140px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="images/green_logo.png" alt="TandPay Logo" class="logo">
+        <span class="badge">Coming Soon</span>
+        <h1>Launching Soon!</h1>
+        <p>We're putting the finishing touches on TandPay — escrow for social commerce in Rwanda, powered by MTN Mobile Money. Stay tuned!</p>
+        <a href="/" class="back-link">Back to tandpay.com</a>
+    </div>
+</body>
+</html>
